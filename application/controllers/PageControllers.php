@@ -4,7 +4,7 @@ class PageControllers extends CI_controller{
 
     public function showLandingPage(){
         $this->load->view('template/header');
-        $this->load->view('pages/index');
+        $this->load->view('pages/home');
         $this->load->view('template/footer');
     }
 
