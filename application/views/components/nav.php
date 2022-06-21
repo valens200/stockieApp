@@ -20,8 +20,8 @@
 
         </div>
         <div class="btn-group col-3">
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myDiva">Add user</button>
-            <button class="btn btn-white border-primary border border-1 " data-bs-toggle = "modal" data-bs-target="#myDiv">Add product</button>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myDiva"> Add user  <i class="fa-solid fa-plus"></i></button>
+            <button class="btn btn-white border-primary border border-1 " data-bs-toggle = "modal" data-bs-target="#myDiv">Add product   <i class="fa-solid fa-plus"></i></button>
         </div>
     </div>
    <div class="mytwo">

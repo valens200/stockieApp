@@ -73,12 +73,24 @@ class PageControllers extends CI_controller{
         
     }
        
-    public function uppdateUser(){
+    public function uppdateUser(){ 
         $this->load->view('template/header');
         $this->load->view('components/side');
         $this->load->view('components/nav');
-        $this->load->view('components/from');
+        $this->load->view('components/fam');
         
+    }
+    public function registerAccount(){
+        $this->load->view('template/header');
+        $this->load->view('components/sidebar');
+        $this->load->view('components/nav');
+        $this->load->view('components/fam');
+        
+    }
+    function error(){
+        $this->load->view('template/header');
+        $this->load->view('pages/error');
+        $this->load->view('template/footer');
     }
     public function updatebyID($id){
         $this->load->model('UsersModel', 'users');
@@ -138,7 +150,7 @@ class PageControllers extends CI_controller{
             $this->users();
             
         }else{
-            $this->uppdateUser();
+            $this->registerAccount();
         
         }
 

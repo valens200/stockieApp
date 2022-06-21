@@ -68,3 +68,6 @@ $route['register/reg'] ='PageControllers/showregister';
 $route['delete/product/(:any)'] = 'PageControllers/deleteProduct/$1';
 $route['update/product/(:any)'] = 'PageControllers/getone/$1';
 $route['update/update/product/(:any)'] = 'PageControllers/updateLast/$1';
+$route['error' ] = 'PageControllers/error';
+$route['registerAccount'] = 'PageControllers/registerAccount';
+

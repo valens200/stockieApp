@@ -28,8 +28,8 @@
                     <td><?=$user->telephone?></td>
                     <td><?= $user->email?></td>
                     <td class="text-center">
-                       <a href="<?php echo base_url('index.php/delete/'.$user->userId); ?>"> <button class="btn btn-danger mx-2">Delete</button></a>
-                       <a href="<?php echo base_url('index.php/update/'. $user->userId); ?>"><button class="btn btn-primary">Update</button></a>
+                       <a href="<?php echo base_url('index.php/delete/'.$user->userId); ?>"> <button class="btn btn-danger mx-2"><i class="fa-solid fa-trash-can"></i></button></a>
+                       <a href="<?php echo base_url('index.php/update/'. $user->userId); ?>"><button class="btn btn-primary"><i class="fa-solid fa-pen"></i></button></a>
                     </td>
                 </tr>
            <?php }?>

@@ -54,7 +54,7 @@
                               <div class="modal-content">
                               <p><span class="h3 text-warning fw-bolder">Stocki</span></p>
                             <p class="text-secondary lead fw-bolder">Register your account</p>
-                            <form class="w-75 pb-5 mx-auto Main" action="$" method="post">
+                            <form class="w-75 pb-5 mx-auto Main" action="<?php echo base_url('index.php/registerAccount');?>" method="post">
                                 <div class="in w-75 mx-auto  mt-3">
                                     <input type="test" class="border border-1 border-warning w-100" name="firstname" placeholder="First Name">
                                 </div>
@@ -68,10 +68,10 @@
                                     <input type="email"  class="w-100 border border-1 border-warning" name="email"  placeholder = "Email address">
                                 </div>
                                 <div class="in  mx-auto w-75 mt-3">
-                                    <input type="password"  class="w-100 border border-1 border-warning" name="password" placeholder="Secret Password">
+                                    <input type="tel"  class="w-100 border border-1 border-warning" name="telephone" placeholder="Telephone">
                                 </div>
                                 <div class="in  mx-auto w-75 mt-3">
-                                    <input type="password"  class="w-100 border border-1 border-warning" name="confirm" placeholder="Confirm password">
+                                    <input type="password"  class="w-100 border border-1 border-warning" name="password" placeholder=" password">
                                 </div>
                                 <div class="in  mx-auto mt-3 w-75">
                                     <input type="submit" class="btn btn-white boder border-1 navbutton border-warning text-center text-dark fw-bolder w-100" value="Sign Up">
